@@ -12,9 +12,17 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_berkeley.mk \
-    $(LOCAL_DIR)/aosp_berkeley.mk \
-    $(LOCAL_DIR)/bliss.mk \
-    $(LOCAL_DIR)/bliss_berkeley.mk
+$(call inherit-product, device/huawei/berkeley/full_berkeley.mk)
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/bliss/config/common.mk)
+
+PRODUCT_NAME := bliss_berkeley
+PRODUCT_DEVICE := berkeley
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := Honor View 10
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=berkeley
