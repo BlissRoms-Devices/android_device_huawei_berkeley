@@ -23,6 +23,3 @@ PRODUCT_NAME := bliss_berkeley
 PRODUCT_DEVICE := berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor View 10
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=berkeley
