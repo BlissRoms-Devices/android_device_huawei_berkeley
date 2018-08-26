@@ -17,9 +17,9 @@
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/huawei/berkeley/berkeley-vendor.mk)
 
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
