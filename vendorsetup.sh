@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_berkeley-userdebug
 add_lunch_combo bliss_berkeley-userdebug
 add_lunch_combo bliss_berkeley-user
 add_lunch_combo bliss_berkeley-eng
