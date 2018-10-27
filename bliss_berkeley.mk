@@ -23,3 +23,12 @@ PRODUCT_NAME := bliss_berkeley
 PRODUCT_DEVICE := berkeley
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor View 10
+
+#Apps
+PRODUCT_PACKAGES += \
+    Camera2 \
+    Gallery2 \
+    Music \
+    Calendar \
+    DeskClock \
+    Email 
