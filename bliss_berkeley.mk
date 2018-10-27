@@ -31,4 +31,8 @@ PRODUCT_PACKAGES += \
     Music \
     Calendar \
     DeskClock \
-    Email 
+    Email
+
+# Disable dynamic partition size
+PRODUCT_USE_DYNAMIC_PARTITION_SIZE := false
+
