@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
     Gallery2 \
     Music \
     Calendar \
-    DeskClock \
-    Email
+    DeskClock
 
 # Disable dynamic partition size
 PRODUCT_USE_DYNAMIC_PARTITION_SIZE := false
