@@ -20,3 +20,4 @@ DEVICE_PATH := device/huawei/berkeley
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := berkeley,kirin970
+SELINUX_IGNORE_NEVERALLOWS := true
